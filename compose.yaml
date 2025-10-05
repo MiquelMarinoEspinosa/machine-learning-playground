@@ -1,6 +1,7 @@
 services:
   jupyter:
-    image: miquelmarinoespinosa/jupyter-python-machine-learning
+    #image: miquelmarinoespinosa/jupyter-python-machine-learning
+    image: jupyter/scipy-notebook
     #build:
     #  context: .
     ports:
