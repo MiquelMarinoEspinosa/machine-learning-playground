@@ -1,0 +1,12 @@
+Next steps
+- Factorize another columns with pandas
+- get dummies rest cat columns with pandas
+- Ordinal encoding with scikitlearn
+- One hot encoding with scikitlearn
+- Feature analysis and enginiering
+    - Analyse correlation
+- Drop not useful features
+- Feature scaling with pandas and scikit learn
+- Use pipelines for preprocessing
+    - Cat encoding
+    - Scale
