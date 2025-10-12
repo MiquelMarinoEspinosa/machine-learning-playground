@@ -1,5 +1,4 @@
 Next steps
-- Factorize another columns with pandas
 - get dummies rest cat columns with pandas
 - Ordinal encoding with scikitlearn
 - One hot encoding with scikitlearn
