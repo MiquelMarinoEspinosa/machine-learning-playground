@@ -1,6 +1,4 @@
 Next steps
-- One hot encoding with scikitlearn
-    -------> add feature names as one hot encoded columns prefix just like panda
 - Feature scaling with pandas and scikit learn
 - Use pipelines for preprocessing
     - Cat encoding
