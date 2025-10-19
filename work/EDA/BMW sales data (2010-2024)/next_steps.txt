@@ -1,5 +1,4 @@
 Next steps
-- Feature scaling z-score standard scaling with scikit learn
 - Use pipelines for preprocessing
     - Cat encoding
     - Scale
