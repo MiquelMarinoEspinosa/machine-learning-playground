@@ -1,7 +1,4 @@
 Next steps
-- Use pipelines for preprocessing
-    - Cat encoding
-    - Scale
 - Feature analysis and enginiering
     - Analyse correlation
 - Drop not useful features
