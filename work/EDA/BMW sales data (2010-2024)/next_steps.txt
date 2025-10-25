@@ -1,4 +1,5 @@
-Next steps
-- Feature analysis and enginiering
-    - Analyse correlation
-- Drop not useful features
+- Explore data
+    - max price per year and model
+    - min price per year and model
+    - max price per model and year
+    - min price per model and year
