@@ -1,5 +1,2 @@
 - Explore data
-    - max price per year and model
-    - min price per year and model
-    - max price per model and year
-    - min price per model and year
+    - sales
