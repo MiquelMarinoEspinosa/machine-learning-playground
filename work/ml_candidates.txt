@@ -1,2 +1,5 @@
 Linear regression
     - BMW sales data (2010-2024).csv
+
+Logistic regression
+    - Diabetes_and_LifeStyle_Dataset.csv

@@ -1,1 +1,10 @@
-- Next data set :=)
+- Initial exploration data
+- Plotting data
+    - Matplotlib
+        - Correlation
+    - Seaborn
+- Data cleansing with pandas and sklearn
+    - Transforming/encoding categorical data
+    - Scaling numerical data
+    - Pipelines
+- Advance
