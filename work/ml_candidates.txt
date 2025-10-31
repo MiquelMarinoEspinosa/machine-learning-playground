@@ -1,5 +1,12 @@
 Linear regression
     - BMW sales data (2010-2024).csv
+        - It might be that sales and price are incompatible
+            - may be when predicting one the other should be discarded
 
 Logistic regression
     - Diabetes_and_LifeStyle_Dataset.csv
+        - Take care about diabetes_stage column, it might contaminate the data set
+        - Also diabetes_risk_score column
+        - Some feature engineering can be applied to some columns, or even remove some columns since they are inferred in other columns
+            - cholesterol_total, hdl_cholesterol, ldl_cholesterol -> no strict correlation
+            - systolic_bp, diastolic_bp, heart_rate -> no strict correlation
