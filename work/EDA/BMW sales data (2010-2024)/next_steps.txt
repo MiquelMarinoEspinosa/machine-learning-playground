@@ -1,10 +1,1 @@
-- Initial exploration data
-- Plotting data
-    - Matplotlib
-        - Correlation
-    - Seaborn
-- Data cleansing with pandas and sklearn
-    - Transforming/encoding categorical data
-    - Scaling numerical data
-    - Pipelines
-- Advance
+- Why columntransformer does not encode as integer the categorical variables?
