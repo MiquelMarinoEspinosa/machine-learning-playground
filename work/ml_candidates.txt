@@ -10,3 +10,5 @@ Logistic regression
         - Some feature engineering can be applied to some columns, or even remove some columns since they are inferred in other columns
             - cholesterol_total, hdl_cholesterol, ldl_cholesterol -> no strict correlation
             - systolic_bp, diastolic_bp, heart_rate -> no strict correlation
+    - earthquake_data_tsunami.csv
+        - pending exploration
