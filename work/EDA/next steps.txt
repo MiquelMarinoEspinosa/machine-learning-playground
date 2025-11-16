@@ -1,0 +1,4 @@
+-Next steps
+    - Vehicles
+        - Use target encoders, freq encoder or others for high cardinality
+        - Check kaggle tutorial and sklearn documentation
