@@ -1,2 +1,3 @@
 - Year -> bfill, ffill or linear interpolate (it should be converted from float to int)
 - Manufacturer -> bfill, ffill or mode
+- Model -> bfill, ffill or mode
