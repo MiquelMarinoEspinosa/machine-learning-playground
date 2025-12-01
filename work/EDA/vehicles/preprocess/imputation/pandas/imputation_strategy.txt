@@ -2,6 +2,7 @@
 - Manufacturer -> bfill, ffill or mode
 - Model -> bfill, ffill or mode
 ******************** Analyze better the model, the high cardinality of the column is suspicious amd it might be removed **********
+     - Model removed for high cardinality and very difficult to clean
 - Fuel -> bfill, ffill, mode -> 'gas' is the most used value for bfill and ffill
                              -> 'other' value can be also condired
 
