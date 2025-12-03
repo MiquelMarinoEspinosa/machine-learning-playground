@@ -5,4 +5,6 @@
      - Model removed for high cardinality and very difficult to clean
 - Fuel -> bfill, ffill, mode -> 'gas' is the most used value for bfill and ffill
                              -> 'other' value can be also condired
+- Odometer -> best strategy 'linear interpolate'
+- Title status -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'missing' value
 
