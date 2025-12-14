@@ -7,4 +7,5 @@
                              -> 'other' value can be also condired
 - Odometer -> best strategy 'linear interpolate'
 - Title status -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'missing' value
+- Transmition -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'missing' value
 
