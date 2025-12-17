@@ -1,3 +1,4 @@
+Pandas
 - Year -> bfill, ffill or linear interpolate (it should be converted from float to int)
 - Manufacturer -> bfill, ffill or mode
 - Model -> bfill, ffill or mode
@@ -9,4 +10,7 @@
 - Title status -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'missing' value
 - Transmition -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'other' value
 - Transmition -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'other' value
+
+Sklearn
+- Year -> 
 
