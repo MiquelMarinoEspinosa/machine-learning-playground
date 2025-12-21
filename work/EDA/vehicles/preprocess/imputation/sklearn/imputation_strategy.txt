@@ -1,5 +1,6 @@
-Pandas
-- Year -> bfill, ffill or linear interpolate (it should be converted from float to int)
+Sklearn
+- Year -> 
+    SimpleImputer -> most frequent or median same result 2013. Do not use mean and treat it in the future as categorical variable?
 - Manufacturer -> bfill, ffill or mode
 - Model -> bfill, ffill or mode
 ******************** Analyze better the model, the high cardinality of the column is suspicious amd it might be removed **********
@@ -10,3 +11,5 @@ Pandas
 - Title status -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'missing' value
 - Transmition -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'other' value
 - Transmition -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'other' value
+
+
