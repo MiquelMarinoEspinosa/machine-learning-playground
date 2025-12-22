@@ -1,6 +1,7 @@
 Sklearn
 - Year -> 
     SimpleImputer -> most frequent or median same result 2013. Do not use mean and treat it in the future as categorical variable?
+    KNNImputer -> 5 and uniform -> 2011 (it takes some time and CPU)
 - Manufacturer -> bfill, ffill or mode
 - Model -> bfill, ffill or mode
 ******************** Analyze better the model, the high cardinality of the column is suspicious amd it might be removed **********
