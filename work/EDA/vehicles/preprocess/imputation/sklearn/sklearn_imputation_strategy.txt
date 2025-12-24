@@ -4,7 +4,10 @@ Sklearn
     KNNImputer -> 5 and uniform -> 2011 (it takes some time and CPU)
                   3 and uniform -> 2011 (it takes some time and CPU)
                   2,3,5,10 and distance -> 2011 (it taks some time and CPU) does not convince me at all :/
-    Iterative imputer -> 2018 default values all the same and quick enough without using a lot of resources like pandas :D
+    Iterative imputer -> 2018 default most freaquent values and quick enough without using a lot of resources like pandas :D
+                         constant value also works well
+                         mean 2011 also good performance
+                         median 2013 also good performance, though there is not a lot of difference with simple imputer and pandas imputation
 - Manufacturer -> bfill, ffill or mode
 - Model -> bfill, ffill or mode
 ******************** Analyze better the model, the high cardinality of the column is suspicious amd it might be removed **********
