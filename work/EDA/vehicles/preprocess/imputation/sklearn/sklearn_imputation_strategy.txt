@@ -8,7 +8,9 @@ Sklearn
                          constant value also works well
                          mean 2011 also good performance
                          median 2013 also good performance, though there is not a lot of difference with simple imputer and pandas imputation
-- Manufacturer -> bfill, ffill or mode
+- Manufacturer ->
+    SimpleImputer most frequent -> ford
+    SimpleImputer constant -> other
 - Model -> bfill, ffill or mode
 ******************** Analyze better the model, the high cardinality of the column is suspicious amd it might be removed **********
      - Model removed for high cardinality and very difficult to clean
