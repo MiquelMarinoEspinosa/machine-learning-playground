@@ -11,6 +11,8 @@ Sklearn
 - Manufacturer ->
     SimpleImputer most frequent -> ford
     SimpleImputer constant -> other
+    KNNImputation -> as far as I know it does not work for categorical variables
+    IterativeImputer -> Also not valid for categorical variables, there is a pull request proposal https://github.com/scikit-learn/scikit-learn/pull/31479
 - Model -> bfill, ffill or mode
 ******************** Analyze better the model, the high cardinality of the column is suspicious amd it might be removed **********
      - Model removed for high cardinality and very difficult to clean
