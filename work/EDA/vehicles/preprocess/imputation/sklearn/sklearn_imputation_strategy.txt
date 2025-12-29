@@ -1,6 +1,8 @@
 Sklearn
 - Year -> 
     SimpleImputer -> most frequent or median same result 2013. Do not use mean and treat it in the future as categorical variable?
+                    -> use the median better. 50% of the values |=D
+                        -> quantile? to get any of the other median values or the min or the max? =-|:\/
     KNNImputer -> 5 and uniform -> 2011 (it takes some time and CPU)
                   3 and uniform -> 2011 (it takes some time and CPU)
                   2,3,5,10 and distance -> 2011 (it taks some time and CPU) does not convince me at all :/
@@ -10,13 +12,14 @@ Sklearn
                          median 2013 also good performance, though there is not a lot of difference with simple imputer and pandas imputation
 - Manufacturer ->
     SimpleImputer most frequent -> ford
-    SimpleImputer constant -> other
+    SimpleImputer constant -> other -> there is not other in this case. Therefore may better consider most frequent
     KNNImputation -> as far as I know it does not work for categorical variables
     IterativeImputer -> Also not valid for categorical variables, there is a pull request proposal https://github.com/scikit-learn/scikit-learn/pull/31479
-- Model -> bfill, ffill or mode
-******************** Analyze better the model, the high cardinality of the column is suspicious amd it might be removed **********
-     - Model removed for high cardinality and very difficult to clean
-- Fuel -> bfill, ffill, mode -> 'gas' is the most used value for bfill and ffill
+- Fuel ->
+    SimpleImputer most frequent ->
+    SimpleImputer constant ->
+
+bfill, ffill, mode -> 'gas' is the most used value for bfill and ffill
                              -> 'other' value can be also condired
 - Odometer -> best strategy 'linear interpolate'
 - Title status -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'missing' value
