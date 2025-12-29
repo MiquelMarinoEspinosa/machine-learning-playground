@@ -16,12 +16,13 @@ Sklearn
     KNNImputation -> as far as I know it does not work for categorical variables
     IterativeImputer -> Also not valid for categorical variables, there is a pull request proposal https://github.com/scikit-learn/scikit-learn/pull/31479
 - Fuel ->
-    SimpleImputer most frequent ->
-    SimpleImputer constant ->
+    SimpleImputer most frequent -> gas
+    SimpleImputer constant -> other
 
-bfill, ffill, mode -> 'gas' is the most used value for bfill and ffill
-                             -> 'other' value can be also condired
-- Odometer -> best strategy 'linear interpolate'
+- Odometer -> SimpleImputer
+                - mean
+                - median
+                - most frequent
 - Title status -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'missing' value
 - Transmition -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'other' value
 - Transmition -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'other' value
