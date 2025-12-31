@@ -32,7 +32,7 @@ Sklearn
                  0.0         1174
                 
                 - mean -> 97746 similar to median
-                - median
+                - median -> 85662 (besser use median)
                 - constant with 0
                 - most frequent -> 
 - Title status -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'missing' value
