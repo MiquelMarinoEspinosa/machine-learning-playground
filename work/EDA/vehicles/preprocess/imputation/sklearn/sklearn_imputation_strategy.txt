@@ -20,9 +20,21 @@ Sklearn
     SimpleImputer constant -> other
 
 - Odometer -> SimpleImputer
-                - mean
+                count    2.534550e+05
+                 mean     9.774669e+04
+                 std      2.076887e+05
+                 min      0.000000e+00
+                 25%      3.772400e+04
+                 50%      8.566200e+04
+                 75%      1.337470e+05
+                 max      1.000000e+07
+                 
+                 0.0         1174
+                
+                - mean -> 97746 similar to median
                 - median
-                - most frequent
+                - constant with 0
+                - most frequent -> 
 - Title status -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'missing' value
 - Transmition -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'other' value
 - Transmition -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'other' value
