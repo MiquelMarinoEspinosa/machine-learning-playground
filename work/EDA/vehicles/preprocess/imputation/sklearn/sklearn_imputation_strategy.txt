@@ -34,7 +34,7 @@ Sklearn
                 - mean -> 97746 similar to median
                 - median -> 85662 (besser use median)
                 - constant with 0
-                - most frequent -> 
+                - most frequent -> 100.000 greater than median and mean
 - Title status -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'missing' value
 - Transmition -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'other' value
 - Transmition -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'other' value
