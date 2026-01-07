@@ -9,4 +9,4 @@ Pandas
 - Odometer -> best strategy 'linear interpolate'
 - Title status -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'missing' value
 - Transmition -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'other' value
-- Transmition -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'other' value
+- Type -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'other' value

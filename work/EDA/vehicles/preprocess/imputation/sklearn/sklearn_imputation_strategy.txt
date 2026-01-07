@@ -37,9 +37,14 @@ Sklearn
                 - most frequent -> 100.000 greater than median and mean
             -> KNNImputer
                 -> default values -> mean 97746
+                -> ********** I have just notice that the KNNImputer should be used with more features ideally without categorical.
+                                Otherwise, it would behave exactly the same that a SimpleImputer using more resources though :/ **************
+            -> IterativeImputer
+                -> ******************* Presumably the same behaviour as the KNNImputer ******************
+                -> Let's test one value just for the sake of practice -> default values -> mean 97746
                 
 - Title status -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'missing' value
 - Transmition -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'other' value
-- Transmition -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'other' value
+- Type -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'other' value
 
 
