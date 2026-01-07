@@ -36,6 +36,7 @@ Sklearn
                 - constant with 0
                 - most frequent -> 100.000 greater than median and mean
             -> KNNImputer
+                -> default values -> mean 97746
                 
 - Title status -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'missing' value
 - Transmition -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'other' value
