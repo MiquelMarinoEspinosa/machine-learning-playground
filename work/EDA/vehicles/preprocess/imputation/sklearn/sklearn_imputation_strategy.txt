@@ -43,8 +43,10 @@ Sklearn
                 -> ******************* Presumably the same behaviour as the KNNImputer ******************
                 -> Let's test one value just for the sake of practice -> default values -> mean 97746
                 
-- Title status -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'missing' value
-- Transmition -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'other' value
-- Type -> bfill, ffill and mode have similar output. But the most appropriate option is use the 'other' value
+- Title status -> SimpleImputer
+                    -> most frequent -> clean
+                    -> constant -> missing
+- Transmition ->
+- Type ->
 
 
