@@ -46,7 +46,9 @@ Sklearn
 - Title status -> SimpleImputer
                     -> most frequent -> clean
                     -> constant -> missing
-- Transmition ->
+- Transmition -> SimpleImputer
+                    -> most frequent -> automatic
+                    -> constant -> other
 - Type ->
 
 
