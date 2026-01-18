@@ -49,6 +49,7 @@ Sklearn
 - Transmition -> SimpleImputer
                     -> most frequent -> automatic
                     -> constant -> other
-- Type ->
+- Type -> SimpleImputer
+            -> most frequent -> sedan
 
 
