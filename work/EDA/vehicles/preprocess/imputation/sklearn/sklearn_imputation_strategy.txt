@@ -51,5 +51,6 @@ Sklearn
                     -> constant -> other
 - Type -> SimpleImputer
             -> most frequent -> sedan
+            -> constant -> other
 
 
