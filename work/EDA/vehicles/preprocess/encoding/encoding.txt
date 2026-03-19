@@ -1,1 +1,2 @@
-transmission -> one hot encoder since has just three different values
+transmission (3) -> one hot encoder since has just three different values
+fuel (5), type (13), title_status (6), state (51) -> pandas factorize due to their high cardinality 
