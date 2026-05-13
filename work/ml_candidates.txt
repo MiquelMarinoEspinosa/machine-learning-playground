@@ -2,6 +2,8 @@ Linear regression
     - BMW sales data (2010-2024).csv
         - It might be that sales and price are incompatible
             - may be when predicting one the other should be discarded
+    - vehicles
+        - price as target variable
 
 Logistic regression
     - Diabetes_and_LifeStyle_Dataset.csv
@@ -12,3 +14,5 @@ Logistic regression
             - systolic_bp, diastolic_bp, heart_rate -> no strict correlation
     - earthquake_data_tsunami.csv
         - pending exploration
+    - credit_risk
+        - target -> loan_status
